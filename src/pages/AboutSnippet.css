@@ -1,0 +1,64 @@
+.aboutSnippetSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  background-color: #3b2a20;
+  padding: 48px 5%;
+}
+
+.aboutSnippetImageWrapper img {
+  width: 320px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.aboutSnippetText {
+  max-width: 500px;
+}
+
+.aboutSnippetLabel {
+  color: #c08552;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+.aboutSnippetTitle {
+  color: #f5e6d3;
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+
+.aboutSnippetDescription {
+  color: #d9c8b8;
+  line-height: 1.6;
+  margin-bottom: 32px;
+}
+
+.aboutStats {
+  display: flex;
+  gap: 32px;
+}
+
+.statItem {
+  color: #f5e6d3;
+}
+
+.statItem span {
+  font-size: 20px;
+}
+
+.statItem h3 {
+  font-size: 22px;
+  margin: 8px 0 2px;
+  color: #c08552;
+}
+
+.statItem p {
+  font-size: 13px;
+  color: #d9c8b8;
+}
