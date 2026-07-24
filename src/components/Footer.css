@@ -59,3 +59,27 @@
 .footerSocials a:hover {
   color: #c08552;
 }
+
+@media (max-width: 768px) {
+  .siteFooter {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .footerLinks {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .footerSocials {
+    gap: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footerLinks {
+    flex-direction: column;
+    gap: 8px;
+  }
+}

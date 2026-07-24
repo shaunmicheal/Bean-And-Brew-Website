@@ -62,3 +62,36 @@
   font-size: 13px;
   color: #d9c8b8;
 }
+
+@media (max-width: 768px) {
+  .aboutSnippetSection {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .aboutSnippetImageWrapper img {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    aspect-ratio: 320 / 260;
+  }
+
+  .aboutSnippetText {
+    max-width: 100%;
+  }
+
+  .aboutStats {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 480px) {
+  .aboutSnippetTitle {
+    font-size: 26px;
+  }
+
+  .aboutStats {
+    gap: 20px;
+  }
+}

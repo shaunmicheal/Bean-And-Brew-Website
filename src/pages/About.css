@@ -109,3 +109,48 @@
   font-weight: 700;
   cursor: pointer;
 }
+
+@media (max-width: 992px) {
+  .aboutSection {
+    gap: 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  .aboutSection {
+    flex-direction: column;
+    gap: 32px;
+    text-align: center;
+  }
+
+  .ourStory {
+    max-width: 100%;
+  }
+
+  .aboutImageWrapper img {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    aspect-ratio: 320 / 260;
+  }
+
+  .whyCards {
+    flex-wrap: wrap;
+  }
+
+  .whyCard {
+    max-width: 280px;
+    flex: 1 1 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .aboutTitle {
+    font-size: 26px;
+  }
+
+  .missionTitle,
+  .whyTitle {
+    font-size: 22px;
+  }
+}

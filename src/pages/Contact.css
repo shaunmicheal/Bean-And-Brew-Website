@@ -42,3 +42,13 @@
 .contact-list a:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 480px) {
+  .contactTitle {
+    font-size: 26px;
+  }
+
+  .contact-list {
+    max-width: 100%;
+  }
+}
